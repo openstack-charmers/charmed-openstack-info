@@ -1,0 +1,52 @@
+# OVN Charms
+defaults:
+  team: openstack-charmers
+  branches:
+    master:
+      build-channels:
+        charmcraft: "1.7/stable"
+      channels:
+        - latest/edge
+    stable/22.03:
+      build-channels:
+        charmcraft: "1.5/stable"
+      channels:
+        - 22.03/stable
+    stable/20.03:
+      enabled: False
+      build-channels:
+        charmcraft: "1.5/stable"
+      channels:
+        #- openstack-ussuri/edge
+        #- openstack-victoria/edge
+        - 20.03/edge
+    stable/20.12:
+      enabled: False
+      build-channels:
+        charmcraft: "1.5/stable"
+      channels:
+        #- openstack-wallaby/edge
+        - 20.12/edge
+    stable/21.09:
+      enabled: False
+      build-channels:
+        charmcraft: "1.5/stable"
+      channels:
+        #- openstack-xena/edge
+        - 21.09/stable
+
+projects:
+  - name: OVN Central
+    charmhub: ovn-central
+    launchpad: charm-ovn-central
+    repository: https://opendev.org/x/charm-ovn-central.git
+
+  - name: OVN Dedicated Chassis
+    charmhub: ovn-dedicated-chassis
+    launchpad: charm-ovn-dedicated-chassis
+    repository: https://opendev.org/x/charm-ovn-dedicated-chassis.git
+
+  - name: OVN Chassis
+    charmhub: ovn-chassis
+    launchpad: charm-ovn-chassis
+    repository: https://opendev.org/x/charm-ovn-chassis.git

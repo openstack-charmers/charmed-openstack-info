@@ -1,0 +1,187 @@
+# Miscellaneous Charms used for OpenStack
+defaults:
+  team: openstack-charmers
+
+projects:
+  - name: HA Cluster Charm
+    charmhub: hacluster
+    launchpad: charm-hacluster
+    repository: https://opendev.org/openstack/charm-hacluster.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+      stable/jammy:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 2.4/stable
+      stable/focal:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 2.0.3/stable
+      stable/bionic:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 1.1.18/edge
+
+  - name: Magpie Charm
+    charmhub: magpie
+    launchpad: charm-magpie
+    repository: https://opendev.org/openstack/charm-magpie.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+
+  - name: MySQL InnoDB Cluster Charm
+    charmhub: mysql-innodb-cluster
+    launchpad: charm-mysql-innodb-cluster
+    repository: https://opendev.org/openstack/charm-mysql-innodb-cluster.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+      #stable/8.0:
+      stable/jammy:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 8.0/stable
+
+  - name: MySQL Router
+    charmhub: mysql-router
+    launchpad: charm-mysql-router
+    repository: https://opendev.org/openstack/charm-mysql-router.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+      #stable/8.0:
+      stable/jammy:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 8.0/stable
+
+  - name: Percona Cluster Charm
+    charmhub: percona-cluster
+    launchpad: charm-percona-cluster
+    repository: https://opendev.org/openstack/charm-percona-cluster.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+      stable/5.7:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 5.7/edge
+
+  - name: RabbitMQ Server Charm
+    charmhub: rabbitmq-server
+    launchpad: charm-rabbitmq-server
+    repository: https://opendev.org/openstack/charm-rabbitmq-server.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+      # jammy
+      #stable/3.9:
+      stable/jammy:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 3.9/stable
+      # focal
+      #stable/3.8:
+      stable/focal:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 3.8/stable
+      # bionic - not enabled yet
+      stable/3.6:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 3.6/edge
+
+  - name: Woodpecker Charm
+    # Note: woodpecker has not been promulgated
+    charmhub: openstack-charmers-next-woodpecker
+    launchpad: charm-woodpecker
+    repository: https://github.com/openstack-charmers/charm-woodpecker
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+
+  - name: Vault
+    charmhub: vault
+    launchpad: vault-charm
+    team: vault-charmers
+    repository: https://opendev.org/openstack/charm-vault.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+      stable/1.7:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 1.7/stable
+      stable/1.6:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 1.6/stable
+      stable/1.5:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - 1.5/stable
+
+  - name: OpenStack Loadbalancer Charm
+    charmhub: openstack-loadbalancer
+    launchpad: charm-openstack-loadbalancer
+    repository: https://opendev.org/openstack/charm-openstack-loadbalancer.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "1.7/stable"
+        channels:
+          - latest/edge
+      stable/jammy:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - jammy/stable
+      stable/focal:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - focal/edge
