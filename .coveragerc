@@ -1,0 +1,3 @@
+[run]
+omit = charmed_openstack_info/tests/*
+relative_files = true

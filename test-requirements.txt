@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+hacking
+mypy
+types-PyYAML
+# used to validate the lp-builder-config files.
+git+https://github.com/openstack-charmers/charmhub-lp-tools.git#egg=charmhub-lp-tools

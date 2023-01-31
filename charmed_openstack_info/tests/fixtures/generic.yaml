@@ -1,0 +1,17 @@
+defaults:
+  team: generic-maintainers
+
+projects:
+  - name: Awesome Charm
+    charmhub: awesome
+    launchpad: charm-awesome
+    team: awesome-charmers
+    repo: https://github.com/canonical/charm-awesome-operator
+    branches:
+      main:
+        channels:
+          - yoga/edge
+          - latest/edge
+      stable/xena:
+        channels:
+          - xena/edge
