@@ -21,7 +21,11 @@ import yaml
 
 from collections.abc import Sequence
 from collections import OrderedDict
-from importlib.resources import files
+try:
+    from importlib.resources import files  # type: ignore
+except ImportError:
+    from importlib_resources import files  # type: ignore
+
 from pathlib import Path
 from typing import (
     Any,
