@@ -1,5 +1,7 @@
 # Charmed OpenStack Info
 
+![Build Badge](https://github.com/openstack-charmers/charmed-openstack-info/actions/workflows/tox.yml/badge.svg)
+
 Provides information about Charmed OpenStack artifacts:
 
 * List of charms per category (see
