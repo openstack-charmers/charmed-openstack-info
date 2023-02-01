@@ -22,9 +22,9 @@ import yaml
 from collections.abc import Sequence
 from collections import OrderedDict
 try:
-    from importlib.resources import files  # type: ignore
-except ImportError:
     from importlib_resources import files  # type: ignore
+except ImportError:
+    from importlib.resources import files  # type: ignore
 
 from pathlib import Path
 from typing import (

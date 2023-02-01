@@ -19,9 +19,9 @@ import unittest
 
 from charmed_openstack_info import loader
 try:
-    from importlib.resources import files  # type: ignore
-except ImportError:
     from importlib_resources import files  # type: ignore
+except ImportError:
+    from importlib.resources import files  # type: ignore
 
 
 class TestLoader(unittest.TestCase):
