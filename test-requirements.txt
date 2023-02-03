@@ -3,5 +3,7 @@ pytest-cov
 hacking
 mypy
 types-PyYAML
+# Fix "ModuleNotFoundError: No module named 'DistUtilsExtra'"
+git+https://git.launchpad.net/~freyes/python-apt@setup-requires#egg=python-apt
 # used to validate the lp-builder-config files.
 git+https://github.com/openstack-charmers/charmhub-lp-tools.git#egg=charmhub-lp-tools
