@@ -109,7 +109,7 @@ projects:
           - latest/edge
         bases:
           - "18.04"
-      stable/5.7:
+      stable/bionic:
         build-channels:
           charmcraft: "1.5/stable"
         channels:
