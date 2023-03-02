@@ -328,6 +328,86 @@ projects:
     charmhub: manila
     launchpad: charm-manila
     repository: https://opendev.org/openstack/charm-manila.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "16.04"
+          - "18.04"
+          - "20.04"
+          - "22.04"
+          - "22.10"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "2.0/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+          - "22.10"
 
   - name: OpenStack Manila Generic Charm
     charmhub: manila-generic
