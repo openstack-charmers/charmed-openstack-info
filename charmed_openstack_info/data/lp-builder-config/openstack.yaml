@@ -1012,6 +1012,65 @@ projects:
           - "22.04"
           - "22.10"
 
+  - name: OpenStack Ironic Dashboard Charm
+    charmhub: ironic-dashboard
+    launchpad: charm-ironic-dashboard
+    repository: https://opendev.org/openstack/charm-ironic-dashboard.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/ussuri:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - ussuri/edge
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - victoria/edge
+        bases:
+          - "20.04"
+      stable/wallaby:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - wallaby/edge
+        bases:
+          - "20.04"
+      stable/xena:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - xena/edge
+        bases:
+          - "20.04"
+      stable/yoga:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - yoga/edge
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - zed/edge
+        bases:
+          - "22.04"
+          - "22.10"
+
   - name: OpenStack Keystone Kerberos Charm
     charmhub: keystone-kerberos
     launchpad: charm-keystone-kerberos
