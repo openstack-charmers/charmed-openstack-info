@@ -1024,7 +1024,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
