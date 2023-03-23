@@ -152,7 +152,7 @@ projects:
           - "18.04"
           - "20.04"
       # bionic - not enabled yet
-      stable/3.6:
+      stable/bionic:
         build-channels:
           charmcraft: "1.5/stable"
         channels:
