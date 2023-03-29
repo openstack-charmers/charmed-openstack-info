@@ -11,6 +11,7 @@ defaults:
         - "20.04"
         - "22.04"
     stable/quincy.2:
+      series-summary: "Quincy stable charm"
       build-channels:
         charmcraft: "1.5/stable"
       channels:
@@ -30,7 +31,7 @@ defaults:
         - "20.04"
         - "22.04"
     stable/luminous:
-      enabled: False
+      series-summary: "Charm series covering Luminous, Mimic, and Nautilus"
       build-channels:
         charmcraft: "1.5/stable"
       channels:
@@ -39,25 +40,8 @@ defaults:
         - luminous/edge
       bases:
         - "18.04"
-    stable/mimic:
-      enabled: False
-      build-channels:
-        charmcraft: "1.5/stable"
-      channels:
-        #- openstack-stein/edge
-        - mimic/edge
-      bases:
-        - "18.04"
-    stable/nautilus:
-      enabled: False
-      build-channels:
-        charmcraft: "1.5/stable"
-      channels:
-        #- openstack-train/edge
-        - nautilus/edge
-      bases:
-        - "18.04"
     stable/octopus:
+      series-summary: "Octopus series"
       build-channels:
         charmcraft: "1.5/stable"
       channels:
@@ -66,6 +50,7 @@ defaults:
         - "18.04"
         - "20.04"
     stable/pacific:
+      series-summary: "Pacific series"
       build-channels:
         charmcraft: "1.5/stable"
       channels:
@@ -88,6 +73,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/quincy.2:
+        series-summary: "Quincy stable charm"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -107,6 +93,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/octopus:
+        series-summary: "Octopus series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -115,6 +102,7 @@ projects:
           - "18.04"
           - "20.04"
       stable/pacific:
+        series-summary: "Pacific series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -137,6 +125,7 @@ projects:
           - "22.04"
           - "22.10"
       stable/quincy.2:
+        series-summary: "Quincy stable charm"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -156,7 +145,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/luminous:
-        enabled: False
+        series-summary: "Charm series covering Luminous, Mimic, and Nautilus"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -165,25 +154,8 @@ projects:
           - luminous/edge
         bases:
           - "18.04"
-      stable/mimic:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-stein/edge
-          - mimic/edge
-        bases:
-          - "18.04"
-      stable/nautilus:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-train/edge
-          - nautilus/edge
-        bases:
-          - "18.04"
       stable/octopus:
+        series-summary: "Octopus series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -192,6 +164,7 @@ projects:
           - "18.04"
           - "20.04"
       stable/pacific:
+        series-summary: "Pacific series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -213,6 +186,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/quincy.2:
+        series-summary: "Quincy stable charm"
         build-channels:
           charmcraft: "2.0/stable"
         channels:
@@ -232,7 +206,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/luminous:
-        enabled: False
+        series-summary: "Charm series covering Luminous, Mimic, and Nautilus"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -241,25 +215,8 @@ projects:
           - luminous/edge
         bases:
           - "18.04"
-      stable/mimic:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-stein/edge
-          - mimic/edge
-        bases:
-          - "18.04"
-      stable/nautilus:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-train/edge
-          - nautilus/edge
-        bases:
-          - "18.04"
       stable/octopus:
+        series-summary: "Octopus series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -268,6 +225,7 @@ projects:
           - "18.04"
           - "20.04"
       stable/pacific:
+        series-summary: "Pacific series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -290,6 +248,7 @@ projects:
           - "22.04"
           - "22.10"
       stable/quincy.2:
+        series-summary: "Quincy stable charm"
         build-channels:
           charmcraft: "2.0/stable"
         channels:
@@ -309,7 +268,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/luminous:
-        enabled: False
+        series-summary: "Charm series covering Luminous, Mimic, and Nautilus"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -318,25 +277,8 @@ projects:
           - luminous/edge
         bases:
           - "18.04"
-      stable/mimic:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-stein/edge
-          - mimic/edge
-        bases:
-          - "18.04"
-      stable/nautilus:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-train/edge
-          - nautilus/edge
-        bases:
-          - "18.04"
       stable/octopus:
+        series-summary: "Octopus series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -345,6 +287,7 @@ projects:
           - "18.04"
           - "20.04"
       stable/pacific:
+        series-summary: "Pacific series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -366,6 +309,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/quincy.2:
+        series-summary: "Quincy stable charm"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -385,6 +329,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/pacific:
+        series-summary: "Pacific series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -411,6 +356,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/quincy.2:
+        series-summary: "Quincy stable charm"
         build-channels:
           charmcraft: "2.0/stable"
         channels:
@@ -430,7 +376,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/luminous:
-        enabled: False
+        series-summary: "Charm series covering Luminous, Mimic, and Nautilus"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -439,25 +385,8 @@ projects:
           - luminous/edge
         bases:
           - "18.04"
-      stable/mimic:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-stein/edge
-          - mimic/edge
-        bases:
-          - "18.04"
-      stable/nautilus:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-train/edge
-          - nautilus/edge
-        bases:
-          - "18.04"
       stable/octopus:
+        series-summary: "Octopus series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -466,6 +395,7 @@ projects:
           - "18.04"
           - "20.04"
       stable/pacific:
+        series-summary: "Pacific series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -487,6 +417,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/quincy.2:
+        series-summary: "Quincy stable charm"
         build-channels:
           charmcraft: "2.0/stable"
         channels:
@@ -506,7 +437,7 @@ projects:
           - "20.04"
           - "22.04"
       stable/luminous:
-        enabled: False
+        series-summary: "Charm series covering Luminous, Mimic, and Nautilus"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -515,25 +446,8 @@ projects:
           - luminous/edge
         bases:
           - "18.04"
-      stable/mimic:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-stein/edge
-          - mimic/edge
-        bases:
-          - "18.04"
-      stable/nautilus:
-        enabled: False
-        build-channels:
-          charmcraft: "1.5/stable"
-        channels:
-          #- openstack-train/edge
-          - nautilus/edge
-        bases:
-          - "18.04"
       stable/octopus:
+        series-summary: "Octopus series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
@@ -542,6 +456,7 @@ projects:
           - "18.04"
           - "20.04"
       stable/pacific:
+        series-summary: "Pacific series"
         build-channels:
           charmcraft: "1.5/stable"
         channels:
