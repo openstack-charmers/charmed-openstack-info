@@ -1,0 +1,38 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Only run the deploy stage when a push happens to the
+    # openstack-charmers/charmed-openstack-info repository.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'openstack-charmers/charmed-openstack-info'
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install dependencies
+      run: |
+        sudo snap install --edge charmhub-lp-tool
+        mkdir logs
+    - name: Load Launchpad Token
+      run: |
+        # Steps to generate the token:
+        # curl https://gist.githubusercontent.com/freyes/6d5304937d4fdb3431165d00b1fffe56/raw/e220b4a844d1e6be5776523f4addf8dde4a42996/launchpad-request-token.py
+        # python3 ./launchpad-request-token.py -o ./lp-credentials.txt
+        # base64 ./lp-credentials.txt
+        echo "${{ secrets.LP_CREDENTIALS }}" | base64 -d > lp-credentials.txt
+    - name: LP Sync --i-really-mean-it
+      run: |
+        export LP_CREDENTIALS_FILE=$(pwd)/lp-credentials.txt
+        charmhub-lp-tool --config-dir ./charmed_openstack_info/data/lp-builder-config --log DEBUG sync --i-really-mean-it 2>./logs/sync.log
+    - name: LP Ensure Series --i-really-mean-it
+      run: |
+        export LP_CREDENTIALS_FILE=$(pwd)/lp-credentials.txt
+        charmhub-lp-tool --config-dir ./charmed_openstack_info/data/lp-builder-config --log DEBUG ensure-series --i-really-mean-it 2>./logs/ensure-series.log
+    - name: upload logs
+      uses: actions/upload-artifact@v2
+      with:
+        name: charmhub-lp-tool-logs
+        path: logs/
