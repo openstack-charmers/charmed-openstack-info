@@ -4,7 +4,7 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "2.0/stable"
+        charmcraft: "2.1/stable"
       channels:
         - latest/edge
       bases:
@@ -95,7 +95,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -179,7 +179,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -559,7 +559,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -669,7 +669,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -735,7 +735,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -811,7 +811,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -948,7 +948,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1164,7 +1164,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1193,7 +1193,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1259,7 +1259,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1330,7 +1330,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1401,7 +1401,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1477,7 +1477,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1547,7 +1547,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
@@ -1629,7 +1629,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - latest/edge
         bases:
