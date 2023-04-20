@@ -167,7 +167,7 @@ class CharmProjectInfo:
 
 
 class CharmsGroupConfig:
-    """Collect together all the config files and build CharmProjectInfo objects.
+    """Group all the config files and build CharmProjectInfo objects.
 
     This collects together the files passed (which define a charm projects
     config and creates CharmProject objects to ensure git repositories and
