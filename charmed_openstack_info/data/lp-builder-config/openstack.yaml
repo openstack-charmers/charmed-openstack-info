@@ -81,6 +81,15 @@ defaults:
       bases:
         - "22.04"
         - "22.10"
+    stable/2023.1:
+      enabled: True
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - 2023.1/candidate
+      bases:
+        - "22.04"
+        - "23.04"
 
 projects:
   - name: OpenStack Aodh Charm
@@ -170,6 +179,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Barbican Vault Charm
     charmhub: barbican-vault
@@ -253,6 +271,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Ceilometer Charm
     charmhub: ceilometer
@@ -408,6 +435,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Manila Generic Charm
     charmhub: manila-generic
@@ -458,6 +494,97 @@ projects:
     charmhub: nova-compute-nvidia-vgpu
     launchpad: charm-nova-compute-nvidia-vgpu
     repository: https://opendev.org/openstack/charm-nova-compute-nvidia-vgpu.git
+    # TODO: charmhub migration is not completed yet for this charm.  It needs
+    # backporting to bionic (I think).
+    branches:
+      master:
+        build-channels:
+          charmcraft: "2.0/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "16.04"
+          - "18.04"
+          - "20.04"
+          - "22.04"
+          - "22.10"
+      stable/train:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: False
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "2.0/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.0/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Nova Cell Controller Charm
     charmhub: nova-cell-controller
@@ -550,6 +677,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Placement charm
     charmhub: placement
@@ -626,6 +762,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Swift Proxy Charm
     charmhub: swift-proxy
@@ -726,6 +871,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Cinder Purestorage Charm
     charmhub: cinder-purestorage
@@ -802,6 +956,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Cinder Solidfire Charm
     charmhub: cinder-solidfire
@@ -868,6 +1031,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Cinder NetApp Charm
     charmhub: cinder-netapp
@@ -939,6 +1111,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Ironic API Charm
     charmhub: ironic-api
@@ -1015,6 +1196,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Ironic Conductor Charm
     charmhub: ironic-conductor
@@ -1091,6 +1281,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Ironic Dashboard Charm
     charmhub: ironic-dashboard
@@ -1150,6 +1349,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Keystone Kerberos Charm
     charmhub: keystone-kerberos
@@ -1179,6 +1387,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Keystone SAML Mellon Charm
     charmhub: keystone-saml-mellon
@@ -1250,6 +1467,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Magnum Dashboard Charm
     charmhub: magnum-dashboard
@@ -1316,6 +1542,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Manila Dashboard Charm
     charmhub: manila-dashboard
@@ -1387,6 +1622,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Neutron API Arista Plugin charm
     charmhub: neutron-api-plugin-arista
@@ -1468,6 +1712,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Neutron API OVN Plugin Charm
     charmhub: neutron-api-plugin-ovn
@@ -1534,6 +1787,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   # - name: OpenStack Neutron Dynamic Routing Charm
   #  charmhub: neutron-dynamic-routing
@@ -1621,6 +1883,15 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
 
   - name: OpenStack Octavia Disk-Image Retrofit Charm
     charmhub: octavia-diskimage-retrofit
@@ -1703,3 +1974,12 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/candidate
+        bases:
+          - "22.04"
+          - "23.04"
