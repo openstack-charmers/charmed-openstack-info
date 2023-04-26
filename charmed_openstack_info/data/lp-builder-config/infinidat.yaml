@@ -10,7 +10,7 @@ defaults:
       bases:
         - "22.04"
         - "23.04"
-    stable/2021.1:
+    stable/2023.1:
       enabled: False
       build-channels:
         charmcraft: "2.1/stable"
@@ -33,10 +33,18 @@ defaults:
       build-channels:
         charmcraft: "2.1/stable"
       channels:
-        - zed/stable
+        - yoga/stable
       bases:
         - "20.04"
         - "22.04"
+    stable/xena:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - yoga/stable
+      bases:
+        - "20.04"
     stable/wallaby:
       enabled: False
       build-channels:
