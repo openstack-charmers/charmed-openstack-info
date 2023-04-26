@@ -1,0 +1,87 @@
+# Infinidat Charms
+defaults:
+  team: openstack-charmers
+  branches:
+    master:
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - latest/edge
+      bases:
+        - "22.04"
+        - "23.04"
+    stable/2023.1:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - 2023.1/stable
+      bases:
+        - "22.04"
+        - "23.04"
+    stable/zed:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - zed/stable
+      bases:
+        - "22.04"
+        - "22.10"
+    stable/yoga:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - yoga/stable
+      bases:
+        - "20.04"
+        - "22.04"
+    stable/xena:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - xena/stable
+      bases:
+        - "20.04"
+    stable/wallaby:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - wallaby/stable
+      bases:
+        - "20.04"
+    stable/victoria:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - victoria/stable
+      bases:
+        - "20.04"
+    stable/ussuri:
+      enabled: False
+      build-channels:
+        charmcraft: "2.1/stable"
+      channels:
+        - ussuri/stable
+      bases:
+        - "20.04"
+
+projects:
+  - name: Manila subordinate Infinidat storage backend charm
+    charmhub: manila-infinidat
+    launchpad: charm-manila-infinidat
+    repository: https://opendev.org/openstack/charm-manila-infinidat.git
+
+  - name: Cinder subordinate Infinidat charm
+    charmhub: cinder-infinidat
+    launchpad: charm-cinder-infinidat
+    repository: https://opendev.org/openstack/charm-cinder-infinidat.git
+
+  - name: Infinidat tools subordinate charm for nova and cinder
+    charmhub: infinidat-tools
+    launchpad: charm-infinidat-tools
+    repository: https://opendev.org/openstack/charm-infinidat-tools.git
