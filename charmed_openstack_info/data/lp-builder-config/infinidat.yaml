@@ -42,7 +42,7 @@ defaults:
       build-channels:
         charmcraft: "2.1/stable"
       channels:
-        - yoga/stable
+        - xena/stable
       bases:
         - "20.04"
     stable/wallaby:
