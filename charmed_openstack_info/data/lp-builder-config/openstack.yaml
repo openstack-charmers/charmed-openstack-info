@@ -1308,7 +1308,7 @@ projects:
         build-channels:
           charmcraft: "2.1/stable"
         channels:
-          - ussuri/edge
+          - ussuri/stable
         bases:
           - "18.04"
           - "20.04"
@@ -1316,28 +1316,28 @@ projects:
         build-channels:
           charmcraft: "2.1/stable"
         channels:
-          - victoria/edge
+          - victoria/stable
         bases:
           - "20.04"
       stable/wallaby:
         build-channels:
           charmcraft: "2.1/stable"
         channels:
-          - wallaby/edge
+          - wallaby/stable
         bases:
           - "20.04"
       stable/xena:
         build-channels:
           charmcraft: "2.1/stable"
         channels:
-          - xena/edge
+          - xena/stable
         bases:
           - "20.04"
       stable/yoga:
         build-channels:
           charmcraft: "2.1/stable"
         channels:
-          - yoga/edge
+          - yoga/stable
         bases:
           - "20.04"
           - "22.04"
@@ -1345,7 +1345,7 @@ projects:
         build-channels:
           charmcraft: "2.1/stable"
         channels:
-          - zed/edge
+          - zed/stable
         bases:
           - "22.04"
           - "22.10"
