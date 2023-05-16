@@ -43,7 +43,7 @@ defaults:
       duplicate-channels:
         - victoria
         - wallaby
-        - zed
+        - xena
       bases:
         - "20.04"
 
