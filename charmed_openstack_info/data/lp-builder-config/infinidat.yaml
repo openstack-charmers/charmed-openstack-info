@@ -10,63 +10,40 @@ defaults:
       bases:
         - "22.04"
         - "23.04"
-    stable/2023.1:
-      enabled: False
-      build-channels:
-        charmcraft: "2.1/stable"
-      channels:
-        - 2023.1/stable
-      bases:
-        - "22.04"
-        - "23.04"
     stable/zed:
-      enabled: False
+      enabled: True
       build-channels:
         charmcraft: "2.1/stable"
       channels:
-        - zed/stable
+        - zed/candidate
+        - 2023.1/candidate
+      duplicate-channels:
+        - zed
+        - "2023.1"
       bases:
         - "22.04"
-        - "22.10"
     stable/yoga:
-      enabled: False
+      enabled: True
       build-channels:
         charmcraft: "2.1/stable"
       channels:
-        - yoga/stable
+        - yoga/candidate
       bases:
         - "20.04"
         - "22.04"
-    stable/xena:
-      enabled: False
-      build-channels:
-        charmcraft: "2.1/stable"
-      channels:
-        - xena/stable
-      bases:
-        - "20.04"
-    stable/wallaby:
-      enabled: False
-      build-channels:
-        charmcraft: "2.1/stable"
-      channels:
-        - wallaby/stable
-      bases:
-        - "20.04"
-    stable/victoria:
-      enabled: False
-      build-channels:
-        charmcraft: "2.1/stable"
-      channels:
-        - victoria/stable
-      bases:
-        - "20.04"
     stable/ussuri:
-      enabled: False
+      enabled: True
       build-channels:
-        charmcraft: "2.1/stable"
+        charmcraft: "1.5/stable"
       channels:
         - ussuri/stable
+        - victoria/candidate
+        - wallaby/candidate
+        - xena/candidate
+      duplicate-channels:
+        - victoria
+        - wallaby
+        - xena
       bases:
         - "20.04"
 
