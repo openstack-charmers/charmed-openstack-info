@@ -2,7 +2,7 @@
 defaults:
   team: openstack-charmers
   branches:
-    master:
+    main:
       build-channels:
         charmcraft: "2.1/stable"
       channels:
