@@ -1983,3 +1983,16 @@ projects:
         bases:
           - "22.04"
           - "23.04"
+  - name: OpenStack Watcher Charm
+    charmhub: watcher
+    launchpad: charm-watcher
+    repository: https://opendev.org/openstack/charm-watcher.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "2.2/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "22.04"
+          - "23.04"
