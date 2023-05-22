@@ -1996,3 +1996,17 @@ projects:
         bases:
           - "22.04"
           - "23.04"
+
+  - name: OpenStack Watcher Dashboard Charm
+    charmhub: watcher-dashboard
+    launchpad: charm-watcher-dashboard
+    repository: https://opendev.org/openstack/charm-watcher-dashboard.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "2.2/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "22.04"
+          - "23.04"
