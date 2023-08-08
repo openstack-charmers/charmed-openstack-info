@@ -47,3 +47,13 @@ openstack-charmers-next-woodpecker https://github.com/openstack-charmers/charm-w
 vault https://opendev.org/openstack/charm-vault.git
 openstack-loadbalancer https://opendev.org/openstack/charm-openstack-loadbalancer.git
 ```
+
+## Charmhub LP tool
+
+The lp-builder-config can be used with
+[charmhub-lp-tool](https://github.com/openstack-charmers/charmhub-lp-tools/)
+using the following command:
+
+``` shell
+charmhub-lp-tool --config-dir ./charmed_openstack_info/data/lp-builder-config <command>
+```
