@@ -10,7 +10,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
@@ -47,7 +47,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
 
@@ -58,7 +58,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "1.7/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
@@ -81,7 +81,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
@@ -104,7 +104,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "1.7/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
@@ -124,7 +124,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "1.7/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
@@ -168,7 +168,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "1.7/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
 
@@ -180,7 +180,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
@@ -225,7 +225,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
@@ -254,7 +254,7 @@ projects:
     branches:
       main:
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
 
@@ -266,7 +266,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
