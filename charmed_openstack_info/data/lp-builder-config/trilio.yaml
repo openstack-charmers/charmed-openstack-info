@@ -10,6 +10,8 @@ defaults:
       bases:
         - "18.04"
         - "20.04"
+        - "23.04"
+        - "23.10"
     stable/4.0:
       build-channels:
         charmcraft: "1.5/stable"

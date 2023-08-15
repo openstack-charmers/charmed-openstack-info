@@ -12,7 +12,8 @@ defaults:
         - "18.04"
         - "20.04"
         - "22.04"
-        - "22.10"
+        - "23.04"
+        - "23.10"
     stable/train:
       enabled: True
       build-channels:
@@ -112,7 +113,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -205,7 +207,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -366,7 +369,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -507,7 +511,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: False
         build-channels:
@@ -610,7 +615,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -702,7 +708,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -820,7 +827,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -896,7 +904,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -980,7 +989,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1060,7 +1070,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1136,7 +1147,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -1221,7 +1233,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -1303,7 +1316,8 @@ projects:
           - latest/edge
         bases:
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         build-channels:
           charmcraft: "2.1/stable"
@@ -1377,7 +1391,8 @@ projects:
           - latest/edge
         bases:
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/zed:
         enabled: True
         build-channels:
@@ -1416,7 +1431,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1491,7 +1507,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1571,7 +1588,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1652,7 +1670,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -1737,6 +1756,8 @@ projects:
           - "20.04"
           - "22.04"
           - "22.10"
+          - "23.04"
+          - "23.10"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1816,7 +1837,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -1907,7 +1929,8 @@ projects:
           - "18.04"
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/train:
         enabled: True
         build-channels:
@@ -1996,6 +2019,7 @@ projects:
         bases:
           - "22.04"
           - "23.04"
+          - "23.10"
 
   - name: OpenStack Watcher Dashboard Charm
     charmhub: watcher-dashboard
@@ -2010,3 +2034,4 @@ projects:
         bases:
           - "22.04"
           - "23.04"
+          - "23.10"
