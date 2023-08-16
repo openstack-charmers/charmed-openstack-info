@@ -16,6 +16,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
+          - "23.04"
+          - "23.10"
       stable/jammy:
         build-channels:
           charmcraft: "1.5/stable"
@@ -64,6 +66,8 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+          - "23.04"
+          - "23.10"
       #stable/8.0:
       stable/jammy:
         build-channels:
@@ -87,6 +91,8 @@ projects:
         bases:
           - "22.04"
           - "22.10"
+          - "23.04"
+          - "23.10"
       #stable/8.0:
       stable/jammy:
         build-channels:
@@ -130,7 +136,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       # jammy
       #stable/3.9:
       stable/jammy:
@@ -185,7 +192,8 @@ projects:
           - latest/edge
         bases:
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/1.8:
         build-channels:
           charmcraft: "2.1/stable"
@@ -230,7 +238,8 @@ projects:
           - latest/edge
         bases:
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/jammy:
         build-channels:
           charmcraft: "1.5/stable"
@@ -271,7 +280,8 @@ projects:
           - latest/edge
         bases:
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/bionic:
         enabled: True
         build-channels:

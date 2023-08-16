@@ -9,7 +9,8 @@ defaults:
         - latest/edge
       bases:
         - "22.04"
-        - "22.10"
+        - "23.04"
+        - "23.10"
     stable/20.03:
       build-channels:
         charmcraft: "1.5/stable"

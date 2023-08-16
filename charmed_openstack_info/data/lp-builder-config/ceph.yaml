@@ -10,6 +10,8 @@ defaults:
       bases:
         - "20.04"
         - "22.04"
+        - "23.04"
+        - "23.10"
     stable/quincy.2:
       series-summary: "Quincy stable charm"
       build-channels:
@@ -72,6 +74,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
+          - "23.04"
+          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -123,7 +127,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -185,6 +190,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
+          - "23.04"
+          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -246,7 +253,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
-          - "22.10"
+          - "23.04"
+          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -308,6 +316,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
+          - "23.04"
+          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -355,6 +365,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
+          - "23.04"
+          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -416,6 +428,8 @@ projects:
         bases:
           - "20.04"
           - "22.04"
+          - "23.04"
+          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
