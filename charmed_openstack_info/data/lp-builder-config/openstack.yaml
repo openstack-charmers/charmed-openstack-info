@@ -76,7 +76,7 @@ defaults:
     stable/zed:
       enabled: True
       build-channels:
-        charmcraft: "2.0/stable"
+        charmcraft: "2.1/stable"
       channels:
         - zed/stable
       bases:
@@ -268,7 +268,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -433,7 +433,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -575,7 +575,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -677,7 +677,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -873,7 +873,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -959,7 +959,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1035,7 +1035,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1116,7 +1116,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1202,7 +1202,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1288,7 +1288,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1396,7 +1396,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1477,7 +1477,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1553,7 +1553,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1634,7 +1634,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1725,7 +1725,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1802,7 +1802,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1899,7 +1899,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -1991,7 +1991,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
