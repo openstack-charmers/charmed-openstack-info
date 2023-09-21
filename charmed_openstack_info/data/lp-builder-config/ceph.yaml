@@ -4,11 +4,10 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "2.x/stable"
+        charmcraft: "2.2/stable"
       channels:
-        - latest/edge
+        - reef/candidate
       bases:
-        - "20.04"
         - "22.04"
         - "23.04"
         - "23.10"
@@ -77,11 +76,10 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.2/stable"
         channels:
-          - latest/edge
+          - reef/candidate
         bases:
-          - "20.04"
           - "22.04"
           - "23.04"
           - "23.10"
@@ -139,11 +137,10 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.2/stable"
         channels:
-          - latest/edge
+          - reef/candidate
         bases:
-          - "20.04"
           - "22.04"
           - "23.04"
           - "23.10"
@@ -211,11 +208,10 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.2/stable"
         channels:
-          - latest/edge
+          - reef/candidate
         bases:
-          - "20.04"
           - "22.04"
           - "23.04"
           - "23.10"
@@ -283,11 +279,10 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.2/stable"
         channels:
-          - latest/edge
+          - reef/candidate
         bases:
-          - "20.04"
           - "22.04"
           - "23.04"
           - "23.10"
@@ -355,11 +350,10 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.2/stable"
         channels:
-          - latest/edge
+          - reef/candidate
         bases:
-          - "20.04"
           - "22.04"
           - "23.04"
           - "23.10"
@@ -413,11 +407,10 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.2/stable"
         channels:
-          - latest/edge
+          - reef/candidate
         bases:
-          - "20.04"
           - "22.04"
           - "23.04"
           - "23.10"
@@ -485,11 +478,10 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.2/stable"
         channels:
-          - latest/edge
+          - reef/candidate
         bases:
-          - "20.04"
           - "22.04"
           - "23.04"
           - "23.10"
