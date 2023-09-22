@@ -3,6 +3,19 @@ defaults:
   team: openstack-charmers
 
 projects:
+  - name: Discoveryserver Charm
+    charmhub: discoveryserver
+    launchpad: charm-discoveryserver
+    repository: https://github.com/openstack-charmers/charm-discoveryserver.git
+    branches:
+      main:
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "20.04"
+
   - name: HA Cluster Charm
     charmhub: hacluster
     launchpad: charm-hacluster
