@@ -1818,10 +1818,31 @@ projects:
           - "22.04"
           - "23.04"
 
-  # - name: OpenStack Neutron Dynamic Routing Charm
-  #  charmhub: neutron-dynamic-routing
-  #  launchpad: charm-neutron-dynamic-routing
-  #  repository: https://opendev.org/openstack/charm-neutron-dynamic-routing.git
+  - name: OpenStack Neutron Dynamic Routing Charm
+    charmhub: neutron-dynamic-routing
+    launchpad: charm-neutron-dynamic-routing
+    repository: https://opendev.org/openstack/charm-neutron-dynamic-routing.git
+    branches:
+      master:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "22.04"
+          - "23.04"
+          - "23.10"
+        #stable/2023.2:
+        #  enabled: True
+        #  build-channels:
+        #    charmcraft: "2.2/stable"
+        #  channels:
+        #    - 2023.2/stable
+        #  bases:
+        #    - "22.04"
+        #    - "23.04"
+        #    - "23.10"
 
   - name: OpenStack Octavia Dashboard Charm
     charmhub: octavia-dashboard
