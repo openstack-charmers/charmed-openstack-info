@@ -7,6 +7,7 @@ defaults:
         charmcraft: "2.2/stable"
       channels:
         - reef/candidate
+        - latest/edge
       bases:
         - "22.04"
         - "23.04"
@@ -79,6 +80,7 @@ projects:
           charmcraft: "2.2/stable"
         channels:
           - reef/candidate
+          - latest/edge
         bases:
           - "22.04"
           - "23.04"
@@ -140,6 +142,7 @@ projects:
           charmcraft: "2.2/stable"
         channels:
           - reef/candidate
+          - latest/edge
         bases:
           - "22.04"
           - "23.04"
@@ -211,6 +214,7 @@ projects:
           charmcraft: "2.2/stable"
         channels:
           - reef/candidate
+          - latest/edge
         bases:
           - "22.04"
           - "23.04"
@@ -282,6 +286,7 @@ projects:
           charmcraft: "2.2/stable"
         channels:
           - reef/candidate
+          - latest/edge
         bases:
           - "22.04"
           - "23.04"
@@ -353,6 +358,7 @@ projects:
           charmcraft: "2.2/stable"
         channels:
           - reef/candidate
+          - latest/edge
         bases:
           - "22.04"
           - "23.04"
@@ -410,6 +416,7 @@ projects:
           charmcraft: "2.2/stable"
         channels:
           - reef/candidate
+          - latest/edge
         bases:
           - "22.04"
           - "23.04"
@@ -481,6 +488,7 @@ projects:
           charmcraft: "2.2/stable"
         channels:
           - reef/candidate
+          - latest/edge
         bases:
           - "22.04"
           - "23.04"
