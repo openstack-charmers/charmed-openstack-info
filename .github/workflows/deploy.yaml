@@ -26,7 +26,7 @@ jobs:
     - name: LP Sync --i-really-mean-it
       run: |
         export LP_CREDENTIALS_FILE=$(pwd)/lp-credentials.txt
-        charmhub-lp-tool --config-dir ./charmed_openstack_info/data/lp-builder-config --log DEBUG sync --i-really-mean-it 2>./logs/sync.log
+        charmhub-lp-tool --config-dir ./charmed_openstack_info/data/lp-builder-config --log DEBUG sync --remove-unknown --i-really-mean-it 2>./logs/sync.log
     - name: LP Ensure Series --i-really-mean-it
       run: |
         export LP_CREDENTIALS_FILE=$(pwd)/lp-credentials.txt
