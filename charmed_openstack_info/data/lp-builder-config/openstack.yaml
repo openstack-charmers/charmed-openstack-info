@@ -2013,15 +2013,15 @@ projects:
           - "22.04"
           - "23.04"
           - "23.10"
-        stable/2023.2:
-          enabled: True
-          build-channels:
-            charmcraft: "2.x/stable"
-          channels:
-            - 2023.2/stable
-          bases:
-            - "22.04"
-            - "23.10"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+          - "23.10"
 
   - name: OpenStack Octavia Dashboard Charm
     charmhub: octavia-dashboard
