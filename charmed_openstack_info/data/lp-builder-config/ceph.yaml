@@ -4,7 +4,7 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "2.2/stable"
+        charmcraft: "2.x/stable"
       channels:
         - reef/candidate
         - latest/edge
@@ -15,7 +15,7 @@ defaults:
     stable/reef:
       series-summary: "Reef stable charm"
       build-channels:
-        charmcraft: "2.2/stable"
+        charmcraft: "2.x/stable"
       channels:
         - reef/stable
       bases:
@@ -77,7 +77,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/candidate
           - latest/edge
@@ -88,7 +88,7 @@ projects:
       stable/reef:
         series-summary: "Reef stable charm"
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/stable
         bases:
@@ -139,7 +139,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/candidate
           - latest/edge
@@ -150,7 +150,7 @@ projects:
       stable/reef:
         series-summary: "Reef stable charm"
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/stable
         bases:
@@ -211,7 +211,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/candidate
           - latest/edge
@@ -222,7 +222,7 @@ projects:
       stable/reef:
         series-summary: "Reef stable charm"
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/stable
         bases:
@@ -283,7 +283,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/candidate
           - latest/edge
@@ -294,7 +294,7 @@ projects:
       stable/reef:
         series-summary: "Reef stable charm"
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/stable
         bases:
@@ -355,7 +355,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/candidate
           - latest/edge
@@ -366,7 +366,7 @@ projects:
       stable/reef:
         series-summary: "Reef stable charm"
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/stable
         bases:
@@ -413,7 +413,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/candidate
           - latest/edge
@@ -424,7 +424,7 @@ projects:
       stable/reef:
         series-summary: "Reef stable charm"
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/stable
         bases:
@@ -485,7 +485,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/candidate
           - latest/edge
@@ -496,7 +496,7 @@ projects:
       stable/reef:
         series-summary: "Reef stable charm"
         build-channels:
-          charmcraft: "2.2/stable"
+          charmcraft: "2.x/stable"
         channels:
           - reef/stable
         bases:
