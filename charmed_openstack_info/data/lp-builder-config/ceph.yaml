@@ -12,15 +12,6 @@ defaults:
         - "22.04"
         - "23.04"
         - "23.10"
-    stable/reef:
-      series-summary: "Reef stable charm"
-      build-channels:
-        charmcraft: "2.x/stable"
-      channels:
-        - reef/stable
-      bases:
-        - "22.04"
-        - "23.10"
     stable/quincy.2:
       series-summary: "Quincy stable charm"
       build-channels:
@@ -85,15 +76,6 @@ projects:
           - "22.04"
           - "23.04"
           - "23.10"
-      stable/reef:
-        series-summary: "Reef stable charm"
-        build-channels:
-          charmcraft: "2.x/stable"
-        channels:
-          - reef/stable
-        bases:
-          - "22.04"
-          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -146,15 +128,6 @@ projects:
         bases:
           - "22.04"
           - "23.04"
-          - "23.10"
-      stable/reef:
-        series-summary: "Reef stable charm"
-        build-channels:
-          charmcraft: "2.x/stable"
-        channels:
-          - reef/stable
-        bases:
-          - "22.04"
           - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
@@ -219,15 +192,6 @@ projects:
           - "22.04"
           - "23.04"
           - "23.10"
-      stable/reef:
-        series-summary: "Reef stable charm"
-        build-channels:
-          charmcraft: "2.x/stable"
-        channels:
-          - reef/stable
-        bases:
-          - "22.04"
-          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -290,15 +254,6 @@ projects:
         bases:
           - "22.04"
           - "23.04"
-          - "23.10"
-      stable/reef:
-        series-summary: "Reef stable charm"
-        build-channels:
-          charmcraft: "2.x/stable"
-        channels:
-          - reef/stable
-        bases:
-          - "22.04"
           - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
@@ -363,15 +318,6 @@ projects:
           - "22.04"
           - "23.04"
           - "23.10"
-      stable/reef:
-        series-summary: "Reef stable charm"
-        build-channels:
-          charmcraft: "2.x/stable"
-        channels:
-          - reef/stable
-        bases:
-          - "22.04"
-          - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -420,15 +366,6 @@ projects:
         bases:
           - "22.04"
           - "23.04"
-          - "23.10"
-      stable/reef:
-        series-summary: "Reef stable charm"
-        build-channels:
-          charmcraft: "2.x/stable"
-        channels:
-          - reef/stable
-        bases:
-          - "22.04"
           - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
@@ -492,15 +429,6 @@ projects:
         bases:
           - "22.04"
           - "23.04"
-          - "23.10"
-      stable/reef:
-        series-summary: "Reef stable charm"
-        build-channels:
-          charmcraft: "2.x/stable"
-        channels:
-          - reef/stable
-        bases:
-          - "22.04"
           - "23.10"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
