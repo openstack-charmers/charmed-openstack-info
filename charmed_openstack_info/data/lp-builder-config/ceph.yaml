@@ -350,7 +350,7 @@ projects:
   - name: Ceph OSD Charm
     charmhub: ceph-osd
     launchpad: charm-ceph-osd
-    repository: http://opendev.org/openstack/charm-ceph-osd.git
+    repository: https://opendev.org/openstack/charm-ceph-osd.git
 
   - name: Ceph Proxy Charm
     charmhub: ceph-proxy
