@@ -4,7 +4,7 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "2.x/stable"
+        charmcraft: "2.x/candidate"
       channels:
         - reef/candidate
         - latest/edge
@@ -68,7 +68,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - reef/candidate
           - latest/edge
@@ -121,7 +121,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - reef/candidate
           - latest/edge
@@ -184,7 +184,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - reef/candidate
           - latest/edge
@@ -247,7 +247,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - reef/candidate
           - latest/edge
@@ -310,7 +310,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - reef/candidate
           - latest/edge
@@ -359,7 +359,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - reef/candidate
           - latest/edge
@@ -422,7 +422,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - reef/candidate
           - latest/edge
