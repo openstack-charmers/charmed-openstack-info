@@ -61,6 +61,15 @@ defaults:
       bases:
         - "22.04"
         - "23.04"
+    stable/23.09:
+      build-channels:
+        # Needs to be candidate at the moment to pick up 2.5.0
+        charmcraft: "2.x/candidate"
+      channels:
+        - 23.09/stable
+      bases:
+        - "22.04"
+        - "23.10"
 
 projects:
   - name: OVN Central
