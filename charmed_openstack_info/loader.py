@@ -146,7 +146,7 @@ class CharmProjectInfo:
             ref = f'refs/heads/{branch}'
             if ref not in self.branches:
                 self.branches[ref] = dict(default_branch_info)
-            if type(branch_info) != dict:
+            if not isinstance(branch_info, dict):
                 raise ValueError('Expected a dict for key branches, '
                                  f' instead got {type(branch_info)}')
 
