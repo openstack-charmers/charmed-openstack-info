@@ -5,5 +5,8 @@ mypy
 types-PyYAML
 # Fix "ModuleNotFoundError: No module named 'DistUtilsExtra'"
 git+https://git.launchpad.net/~freyes/python-apt@setup-requires#egg=python-apt
+# Override charmcraft version in charmhub-lp-tools to <2.5.0 for tests to pass
+# See https://github.com/canonical/charmcraft/issues/1472
+charmcraft < 2.5.0
 # used to validate the lp-builder-config files.
 git+https://github.com/openstack-charmers/charmhub-lp-tools.git#egg=charmhub-lp-tools

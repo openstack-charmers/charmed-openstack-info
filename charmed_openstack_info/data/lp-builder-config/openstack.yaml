@@ -852,20 +852,6 @@ projects:
     launchpad: charm-swift-storage
     repository: https://opendev.org/openstack/charm-swift-storage.git
 
-  # Temporarily disabled as don't know the plans for this charm?
-  # - name: OpenStack Watcher Charm
-  # Note: watcher is not promulgated
-  #  charmhub: openstack-charmers-next-watcher
-  #  launchpad: charm-watcher
-  #  repository: https://opendev.org/openstack/charm-watcher.git
-
-  # Temporarily disabled as don't know the plans for this charm?
-  #- name: OpenStack Watcher Dashboard Charm
-  # Note: watcher-dashboard is not promulgated
-  #  charmhub: openstack-charmers-next-watcher-dashboard
-  #  launchpad: charm-watcher-dashboard
-  #  repository: https://opendev.org/openstack/charm-watcher-dashboard.git
-
   - name: OpenStack Cinder Backup Swift Proxy Charm
     charmhub: cinder-backup-swift-proxy
     launchpad: charm-cinder-backup-swift-proxy
@@ -2231,18 +2217,44 @@ projects:
     repository: https://opendev.org/openstack/charm-watcher.git
     branches:
       master:
+        enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
           - "23.10"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "2.x/stable"
         channels:
           - 2023.2/stable
         bases:
@@ -2255,18 +2267,44 @@ projects:
     repository: https://opendev.org/openstack/charm-watcher-dashboard.git
     branches:
       master:
+        enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "2.x/stable"
         channels:
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
           - "23.10"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "2.x/stable"
         channels:
           - 2023.2/stable
         bases:
