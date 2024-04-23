@@ -6,12 +6,18 @@ defaults:
       build-channels:
         charmcraft: "2.x/candidate"
       channels:
-        - reef/candidate
+        - squid/candidate
         - latest/edge
       bases:
         - "22.04"
-        - "23.04"
-        - "23.10"
+    stable/reef:
+      series-summary: "Reef stable charm"
+      build-channels:
+        charmcraft: "2.x/stable"
+      channels:
+        - reef/candidate
+      bases:
+        - "22.04"
     stable/quincy.2:
       series-summary: "Quincy stable charm"
       build-channels:
@@ -70,12 +76,18 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - reef/candidate
+          - squid/candidate
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
-          - "23.10"
+      stable/reef:
+        series-summary: "Reef stable charm"
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - reef/candidate
+        bases:
+          - "22.04"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -123,12 +135,18 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - reef/candidate
+          - squid/candidate
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
-          - "23.10"
+      stable/reef:
+        series-summary: "Reef stable charm"
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - reef/candidate
+        bases:
+          - "22.04"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -186,12 +204,18 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - reef/candidate
+          - squid/candidate
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
-          - "23.10"
+      stable/reef:
+        series-summary: "Reef stable charm"
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - reef/candidate
+        bases:
+          - "22.04"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -249,12 +273,18 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - reef/candidate
+          - squid/candidate
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
-          - "23.10"
+      stable/reef:
+        series-summary: "Reef stable charm"
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - reef/candidate
+        bases:
+          - "22.04"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -312,12 +342,18 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - reef/candidate
+          - squid/candidate
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
-          - "23.10"
+      stable/reef:
+        series-summary: "Reef stable charm"
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - reef/candidate
+        bases:
+          - "22.04"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -361,12 +397,18 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - reef/candidate
+          - squid/candidate
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
-          - "23.10"
+      stable/reef:
+        series-summary: "Reef stable charm"
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - reef/candidate
+        bases:
+          - "22.04"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
@@ -424,12 +466,18 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - reef/candidate
+          - squid/candidate
           - latest/edge
         bases:
           - "22.04"
-          - "23.04"
-          - "23.10"
+      stable/reef:
+        series-summary: "Reef stable charm"
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - reef/candidate
+        bases:
+          - "22.04"
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
