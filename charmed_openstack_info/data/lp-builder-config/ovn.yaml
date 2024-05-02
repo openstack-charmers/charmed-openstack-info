@@ -64,9 +64,18 @@ defaults:
     stable/23.09:
       build-channels:
         # Needs to be candidate at the moment to pick up 2.5.0
-        charmcraft: "2.x/candidate"
+        charmcraft: "2.x/stable"
       channels:
         - 23.09/stable
+      bases:
+        - "22.04"
+        - "23.10"
+    stable/24.03:
+      build-channels:
+        # Needs to be candidate at the moment to pick up 2.5.0
+        charmcraft: "2.x/stable"
+      channels:
+        - 24.03/stable
       bases:
         - "22.04"
         - "23.10"
