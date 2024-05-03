@@ -65,6 +65,11 @@ projects:
           charmcraft: "2.x/stable"
         channels:
           - latest/edge
+      legacy:
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - legacy/stable
 
   - name: MySQL InnoDB Cluster Charm
     charmhub: mysql-innodb-cluster
