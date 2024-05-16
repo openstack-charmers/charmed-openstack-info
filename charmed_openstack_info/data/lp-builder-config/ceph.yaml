@@ -288,7 +288,7 @@ projects:
       stable/quincy.2:
         series-summary: "Quincy stable charm"
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "2.x/stable"
         channels:
           - quincy/stable
         bases:
