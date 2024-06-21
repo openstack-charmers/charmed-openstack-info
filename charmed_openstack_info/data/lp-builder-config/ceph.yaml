@@ -4,6 +4,14 @@ defaults:
   branches:
     master:
       build-channels:
+        charmcraft: "3.x/beta"
+      channels:
+        - squid/candidate
+        - latest/edge
+      bases:
+        - "24.04"
+    stable/squid-jammy:
+      build-channels:
         charmcraft: "2.x/candidate"
       channels:
         - squid/candidate
@@ -74,6 +82,14 @@ projects:
     branches:
       master:
         build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - squid/candidate
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/squid-jammy:
+        build-channels:
           charmcraft: "2.x/candidate"
         channels:
           - squid/candidate
@@ -132,6 +148,14 @@ projects:
     repository: https://opendev.org/openstack/charm-ceph-fs.git
     branches:
       master:
+        build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - squid/candidate
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/squid-jammy:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
@@ -202,6 +226,14 @@ projects:
     branches:
       master:
         build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - squid/candidate
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/squid-jammy:
+        build-channels:
           charmcraft: "2.x/candidate"
         channels:
           - squid/candidate
@@ -270,6 +302,14 @@ projects:
     repository: https://opendev.org/openstack/charm-ceph-mon.git
     branches:
       master:
+        build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - squid/candidate
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/squid-jammy:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
@@ -340,6 +380,14 @@ projects:
     branches:
       master:
         build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - squid/candidate
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/squid-jammy:
+        build-channels:
           charmcraft: "2.x/candidate"
         channels:
           - squid/candidate
@@ -394,6 +442,14 @@ projects:
     repository: https://opendev.org/openstack/charm-ceph-proxy.git
     branches:
       master:
+        build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - squid/candidate
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/squid-jammy:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
@@ -463,6 +519,14 @@ projects:
     repository: https://opendev.org/openstack/charm-ceph-radosgw.git
     branches:
       master:
+        build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - squid/candidate
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/squid-jammy:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
