@@ -4,16 +4,11 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "2.x/candidate"
+        charmcraft: "3.x/beta"
       channels:
         - latest/edge
       bases:
-        - "16.04"
-        - "18.04"
-        - "20.04"
-        - "22.04"
-        - "23.04"
-        - "23.10"
+        - "24.04"
     stable/train:
       enabled: True
       build-channels:
@@ -2157,15 +2152,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/beta"
         channels:
           - latest/edge
         bases:
-          - "20.04"
-          - "22.04"
-          - "22.10"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         enabled: True
         build-channels:

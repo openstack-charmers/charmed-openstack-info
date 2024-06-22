@@ -4,13 +4,11 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "2.x/candidate"
+        charmcraft: "3.x/beta"
       channels:
         - latest/edge
       bases:
-        - "22.04"
-        - "23.04"
-        - "23.10"
+        - "24.04"
     stable/20.03:
       build-channels:
         charmcraft: "1.5/stable"
