@@ -521,6 +521,90 @@ projects:
     charmhub: manila-ganesha
     launchpad: charm-manila-ganesha
     repository: https://opendev.org/openstack/charm-manila-ganesha.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/beta"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+          - "23.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/candidate"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+          - "23.10"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/candidate"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
 
   - name: OpenStack Masakari Charm
     charmhub: masakari
