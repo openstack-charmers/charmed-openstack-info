@@ -997,6 +997,11 @@ projects:
     launchpad: charm-cinder-lvm
     repository: https://opendev.org/openstack/charm-cinder-lvm.git
 
+  - name: OpenStack Cinder NFS Charm
+    charmhub: cinder-nfs
+    launchpad: charm-cinder-nfs
+    repository: https://opendev.org/openstack/charm-cinder-nfs.git
+
   - name: OpenStack Cinder Nimblestorage Charm
     charmhub: cinder-nimblestorage
     launchpad: charm-cinder-nimblestorage
