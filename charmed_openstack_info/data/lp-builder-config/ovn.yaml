@@ -4,7 +4,7 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "3.x/beta"
+        charmcraft: "3.x/stable"
       channels:
         - latest/edge
       bases:
