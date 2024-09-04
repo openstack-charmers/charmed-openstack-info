@@ -4,7 +4,7 @@ defaults:
   branches:
     master:
       build-channels:
-        charmcraft: "3.x/beta"
+        charmcraft: "3.x/stable"
       channels:
         - latest/edge
       bases:
@@ -117,16 +117,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "16.04"
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -228,16 +223,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "16.04"
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -407,16 +397,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "16.04"
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -524,7 +509,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "3.x/beta"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -650,16 +635,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "16.04"
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: False
         build-channels:
@@ -772,15 +752,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -882,15 +858,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -1005,14 +977,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1098,15 +1067,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -1201,14 +1166,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1299,14 +1261,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "1.7/stable"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1392,15 +1351,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -1495,15 +1450,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -1597,13 +1548,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         build-channels:
           charmcraft: "2.1/stable"
@@ -1689,13 +1638,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/zed:
         enabled: True
         build-channels:
@@ -1739,16 +1686,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "16.04"
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -1844,14 +1786,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -1937,14 +1876,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -2035,14 +1971,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/ussuri:
         enabled: True
         build-channels:
@@ -2133,15 +2066,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -2236,7 +2165,7 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "3.x/beta"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -2326,13 +2255,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2358,15 +2285,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -2467,15 +2390,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "18.04"
-          - "20.04"
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/train:
         enabled: True
         build-channels:
@@ -2577,12 +2496,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "22.04"
-          - "23.10"
+          - "24.04"
       stable/yoga:
         enabled: True
         build-channels:
@@ -2635,12 +2553,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "22.04"
-          - "23.10"
+          - "24.04"
       stable/yoga:
         enabled: True
         build-channels:

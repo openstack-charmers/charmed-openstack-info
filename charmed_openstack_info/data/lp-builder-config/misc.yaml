@@ -10,7 +10,7 @@ projects:
     branches:
       main:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -23,7 +23,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "3.x/beta"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -75,7 +75,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "3.x/beta"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -97,7 +97,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "3.x/beta"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -139,7 +139,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "3.x/beta"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -193,7 +193,7 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "3.x/beta"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
@@ -237,13 +237,11 @@ projects:
     branches:
       master:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/jammy:
         build-channels:
           charmcraft: "1.5/stable"
@@ -279,13 +277,11 @@ projects:
       master:
         enabled: True
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - latest/edge
         bases:
-          - "22.04"
-          - "23.04"
-          - "23.10"
+          - "24.04"
       stable/bionic:
         enabled: True
         build-channels:
