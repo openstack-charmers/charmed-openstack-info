@@ -32,7 +32,7 @@ jobs:
         export LP_CREDENTIALS_FILE=$(pwd)/lp-credentials.txt
         charmhub-lp-tool --config-dir ./charmed_openstack_info/data/lp-builder-config --log DEBUG ensure-series --i-really-mean-it 2>./logs/ensure-series.log
     - name: upload logs
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: charmhub-lp-tool-logs
