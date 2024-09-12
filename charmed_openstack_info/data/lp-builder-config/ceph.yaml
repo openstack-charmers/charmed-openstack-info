@@ -31,7 +31,7 @@ defaults:
       build-channels:
         charmcraft: "1.5/stable"
       channels:
-        - quincy/stable
+        - quincy/candidate
       bases:
         - "20.04"
         - "22.04"
@@ -109,7 +109,7 @@ projects:
         build-channels:
           charmcraft: "1.5/stable"
         channels:
-          - quincy/stable
+          - quincy/candidate
         bases:
           - "20.04"
           - "22.04"
@@ -176,7 +176,7 @@ projects:
         build-channels:
           charmcraft: "1.5/stable"
         channels:
-          - quincy/stable
+          - quincy/candidate
         bases:
           - "20.04"
           - "22.04"
@@ -253,7 +253,7 @@ projects:
         build-channels:
           charmcraft: "2.0/stable"
         channels:
-          - quincy/stable
+          - quincy/candidate
         bases:
           - "20.04"
           - "22.04"
@@ -330,7 +330,7 @@ projects:
         build-channels:
           charmcraft: "2.x/stable"
         channels:
-          - quincy/stable
+          - quincy/candidate
         bases:
           - "20.04"
           - "22.04"
@@ -407,7 +407,7 @@ projects:
         build-channels:
           charmcraft: "1.5/stable"
         channels:
-          - quincy/stable
+          - quincy/candidate
         bases:
           - "20.04"
           - "22.04"
@@ -470,7 +470,7 @@ projects:
         build-channels:
           charmcraft: "2.0/stable"
         channels:
-          - quincy/stable
+          - quincy/candidate
         bases:
           - "20.04"
           - "22.04"
@@ -547,7 +547,7 @@ projects:
         build-channels:
           charmcraft: "2.0/stable"
         channels:
-          - quincy/stable
+          - quincy/candidate
         bases:
           - "20.04"
           - "22.04"
