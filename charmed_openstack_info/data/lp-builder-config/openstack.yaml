@@ -1777,6 +1777,14 @@ projects:
         bases:
           - "22.04"
           - "23.10"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "2.x/candidate"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
 
   - name: OpenStack Magnum Charm
     charmhub: magnum
