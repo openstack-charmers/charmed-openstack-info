@@ -73,7 +73,7 @@ defaults:
         # Needs to be candidate at the moment to pick up 2.5.0
         charmcraft: "2.x/stable"
       channels:
-        - 24.03/candidate
+        - 24.03/stable
       bases:
         - "22.04"
         - "23.10"

@@ -100,7 +100,7 @@ defaults:
       build-channels:
         charmcraft: "2.x/candidate"
       channels:
-        - 2024.1/candidate
+        - 2024.1/stable
       bases:
         - "22.04"
 
@@ -211,7 +211,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -316,7 +316,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -493,7 +493,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -587,7 +587,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -731,7 +731,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -846,7 +846,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -945,7 +945,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1055,7 +1055,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1154,7 +1154,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1244,7 +1244,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1339,7 +1339,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1438,7 +1438,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1537,7 +1537,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1621,7 +1621,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1675,7 +1675,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1782,7 +1782,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1872,7 +1872,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -1962,7 +1962,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2057,7 +2057,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2161,7 +2161,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2251,7 +2251,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2282,7 +2282,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2387,7 +2387,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2492,7 +2492,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2549,7 +2549,7 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
 
@@ -2606,6 +2606,6 @@ projects:
         build-channels:
           charmcraft: "2.x/candidate"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
