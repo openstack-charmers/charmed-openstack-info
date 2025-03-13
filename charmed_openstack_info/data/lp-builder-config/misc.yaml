@@ -147,7 +147,7 @@ projects:
       # noble
       stable/noble:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 3.12/stable
         bases:
