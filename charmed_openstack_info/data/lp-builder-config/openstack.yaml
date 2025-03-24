@@ -625,6 +625,15 @@ projects:
     charmhub: nova-compute
     launchpad: charm-nova-compute
     repository: https://opendev.org/openstack/charm-nova-compute.git
+    branches:
+      stable/ussuri:
+        build-channels:
+          charmcraft: "2.x/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
 
   - name: OpenStack Nova Compute NVIDIA vGPU plugin charm
     charmhub: nova-compute-nvidia-vgpu
