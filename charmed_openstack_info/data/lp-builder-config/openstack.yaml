@@ -1652,6 +1652,14 @@ projects:
           - latest/edge
         bases:
           - "24.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "2.1/stable"
+        channels:
+          - yoga/candidate
+        bases:
+          - "22.04"
       stable/zed:
         enabled: True
         build-channels:
