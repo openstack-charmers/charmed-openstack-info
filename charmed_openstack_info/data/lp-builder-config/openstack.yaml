@@ -76,7 +76,6 @@ defaults:
         - zed/stable
       bases:
         - "22.04"
-        - "22.10"
     stable/2023.1:
       enabled: True
       build-channels:
@@ -85,7 +84,6 @@ defaults:
         - 2023.1/stable
       bases:
         - "22.04"
-        - "23.04"
     stable/2023.2:
       enabled: True
       build-channels:
@@ -94,7 +92,6 @@ defaults:
         - 2023.2/stable
       bases:
         - "22.04"
-        - "23.10"
     stable/2024.1:
       enabled: True
       build-channels:
@@ -187,7 +184,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -196,7 +192,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -205,7 +200,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -292,7 +286,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -301,7 +294,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -310,7 +302,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -469,7 +460,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -478,7 +468,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -487,7 +476,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -563,7 +551,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -572,7 +559,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -581,7 +567,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -716,7 +701,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -725,7 +709,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -734,7 +717,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -831,7 +813,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -840,7 +821,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -849,7 +829,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -930,7 +909,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -939,7 +917,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -948,7 +925,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1040,7 +1016,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1049,7 +1024,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1058,7 +1032,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1139,7 +1112,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1148,7 +1120,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1157,7 +1128,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1229,7 +1199,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1238,7 +1207,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1247,7 +1215,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1324,7 +1291,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1333,7 +1299,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1342,7 +1307,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1423,7 +1387,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1432,7 +1395,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1441,7 +1403,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1522,7 +1483,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1531,7 +1491,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1540,7 +1499,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1606,7 +1564,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1615,7 +1572,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1624,7 +1580,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1657,7 +1612,7 @@ projects:
         build-channels:
           charmcraft: "2.x/stable"
         channels:
-          - yoga/candidate
+          - yoga/stable
         bases:
           - "22.04"
       stable/zed:
@@ -1668,7 +1623,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1677,7 +1631,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1686,7 +1639,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1775,7 +1727,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1784,7 +1735,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1793,7 +1743,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1865,7 +1814,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1874,7 +1822,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1883,7 +1830,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -1955,7 +1901,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -1964,7 +1909,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -1973,7 +1917,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2050,7 +1993,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -2059,7 +2001,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2068,7 +2009,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2154,7 +2094,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -2163,7 +2102,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2172,7 +2110,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2244,7 +2181,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -2253,7 +2189,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2262,7 +2197,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2293,7 +2227,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2380,7 +2313,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -2389,7 +2321,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2398,7 +2329,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2485,7 +2415,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -2494,7 +2423,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2503,7 +2431,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2542,7 +2469,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -2551,7 +2477,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2560,7 +2485,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
@@ -2599,7 +2523,6 @@ projects:
           - zed/stable
         bases:
           - "22.04"
-          - "22.10"
       stable/2023.1:
         enabled: True
         build-channels:
@@ -2608,7 +2531,6 @@ projects:
           - 2023.1/stable
         bases:
           - "22.04"
-          - "23.04"
       stable/2023.2:
         enabled: True
         build-channels:
@@ -2617,7 +2539,6 @@ projects:
           - 2023.2/stable
         bases:
           - "22.04"
-          - "23.10"
       stable/2024.1:
         enabled: True
         build-channels:
