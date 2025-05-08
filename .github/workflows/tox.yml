@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install libapt-pkg-dev
+        sudo apt-get install libapt-pkg-dev intltool
         python -m pip install --upgrade pip
         python -m pip install tox tox-gh-actions
     - name: Test with python ${{ matrix.python-version }}
@@ -45,7 +45,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install libapt-pkg-dev
+          sudo apt-get install libapt-pkg-dev intltool
           python -m pip install --upgrade pip
           python -m pip install tox tox-gh-actions
       - name: Test with tox ${{ matrix.target }}
