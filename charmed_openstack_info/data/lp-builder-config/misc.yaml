@@ -250,6 +250,15 @@ projects:
         channels:
           - latest/edge
         bases:
+          - "22.04"
+          - "24.04"
+      stable/noble:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - noble/edge
+        bases:
+          - "22.04"
           - "24.04"
       stable/jammy:
         build-channels:
