@@ -28,6 +28,13 @@ projects:
           - latest/edge
         bases:
           - "24.04"
+      stable/noble:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - noble/edge
+        bases:
+          - "24.04"
       stable/jammy:
         build-channels:
           charmcraft: "1.5/stable"
