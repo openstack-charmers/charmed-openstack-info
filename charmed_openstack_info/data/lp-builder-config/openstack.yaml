@@ -784,7 +784,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/candidate"
         channels:
           - 2024.1/stable
         bases:
