@@ -751,7 +751,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "1.x/candidate"
         channels:
           - yoga/stable
         bases:
@@ -760,7 +760,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/candidate"
         channels:
           - zed/stable
         bases:
@@ -768,7 +768,7 @@ projects:
       stable/2023.1:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "3.x/candidate"
         channels:
           - 2023.1/stable
         bases:
@@ -776,7 +776,7 @@ projects:
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/candidate"
         channels:
           - 2023.2/stable
         bases:
