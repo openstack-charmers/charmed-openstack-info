@@ -751,7 +751,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "1.x/candidate"
+          charmcraft: "3.x/candidate"
         channels:
           - yoga/stable
         bases:
