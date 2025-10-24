@@ -32,7 +32,7 @@ projects:
         build-channels:
           charmcraft: "3.x/stable"
         channels:
-          - 2.8/edge
+          - 2.8/stable
         bases:
           - "24.04"
       stable/jammy:
@@ -263,7 +263,7 @@ projects:
         build-channels:
           charmcraft: "3.x/stable"
         channels:
-          - noble/edge
+          - noble/stable
         bases:
           - "22.04"
           - "24.04"
