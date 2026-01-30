@@ -37,7 +37,7 @@ defaults:
         - "20.04"
     stable/22.03:
       build-channels:
-        charmcraft: "1.5/stable"
+        charmcraft: "2.x/stable"
       channels:
         - 22.03/stable
       bases:
@@ -45,7 +45,7 @@ defaults:
         - "22.04"
     stable/22.09:
       build-channels:
-        charmcraft: "2.1/stable"
+        charmcraft: "2.x/stable"
       channels:
         - 22.09/stable
       bases:
@@ -53,7 +53,7 @@ defaults:
         - "22.10"
     stable/23.03:
       build-channels:
-        charmcraft: "2.1/stable"
+        charmcraft: "2.x/stable"
       channels:
         - 23.03/stable
       bases:
