@@ -1,6 +1,6 @@
 # OVN Charms
 defaults:
-  team: openstack-charmers
+  team: ubuntu-ovn-eng
   branches:
     master:
       build-channels:
