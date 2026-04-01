@@ -64,6 +64,7 @@ jobs:
       run: |
         charmhub-lp-tool --anonymous --config-dir ./charmed_openstack_info/data/lp-builder-config --log DEBUG ensure-series 2>./logs/ensure-series.log
     - name: upload logs
+      if: ${{ always() }}
       uses: actions/upload-artifact@v4
       with:
         name: charmhub-lp-tool-logs
