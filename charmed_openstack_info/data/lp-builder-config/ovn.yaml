@@ -2,7 +2,7 @@
 defaults:
   team: ubuntu-ovn-eng
   branches:
-    master:
+    main:
       build-channels:
         charmcraft: "3.x/stable"
       channels:
@@ -82,14 +82,14 @@ projects:
   - name: OVN Central
     charmhub: ovn-central
     launchpad: charm-ovn-central
-    repository: https://opendev.org/x/charm-ovn-central.git
+    repository: https://github.com/canonical/charm-ovn-central.git
 
   - name: OVN Dedicated Chassis
     charmhub: ovn-dedicated-chassis
     launchpad: charm-ovn-dedicated-chassis
-    repository: https://opendev.org/x/charm-ovn-dedicated-chassis.git
+    repository: https://github.com/canonical/charm-ovn-dedicated-chassis.git
 
   - name: OVN Chassis
     charmhub: ovn-chassis
     launchpad: charm-ovn-chassis
-    repository: https://opendev.org/x/charm-ovn-chassis.git
+    repository: https://github.com/canonical/charm-ovn-chassis.git
