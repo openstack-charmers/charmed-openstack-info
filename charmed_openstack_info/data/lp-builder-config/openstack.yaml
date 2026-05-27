@@ -348,6 +348,56 @@ projects:
     charmhub: designate
     launchpad: charm-designate
     repository: https://opendev.org/openstack/charm-designate.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/candidate"
+        channels:
+          - 2024.1/stable
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Designate Bind Charm
     charmhub: designate-bind
@@ -754,7 +804,7 @@ projects:
           - "20.04"
       stable/yoga:
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - yoga/stable
         bases:
@@ -762,28 +812,28 @@ projects:
           - "22.04"
       stable/zed:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - zed/stable
         bases:
           - "22.04"
       stable/2023.1:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.1/stable
         bases:
           - "22.04"
       stable/2023.2:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.2/stable
         bases:
           - "22.04"
       stable/2024.1:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -970,7 +1020,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - yoga/stable
         bases:
@@ -979,7 +1029,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - zed/stable
         bases:
@@ -987,7 +1037,7 @@ projects:
       stable/2023.1:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.1/stable
         bases:
@@ -995,7 +1045,7 @@ projects:
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.2/stable
         bases:
@@ -1003,7 +1053,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:

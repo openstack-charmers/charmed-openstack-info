@@ -112,7 +112,7 @@ projects:
       #stable/8.0:
       stable/jammy:
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 8.0/stable
         bases:
@@ -164,7 +164,7 @@ projects:
       #stable/3.9:
       stable/jammy:
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 3.9/stable
         bases:
