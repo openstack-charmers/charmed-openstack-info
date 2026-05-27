@@ -333,3 +333,11 @@ projects:
         bases:
           - "20.04"
           - "22.04"
+      stable/noble:
+        enabled: true
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - noble/candidate
+        bases:
+          - "24.04"
