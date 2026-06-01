@@ -95,7 +95,7 @@ defaults:
     stable/2024.1:
       enabled: True
       build-channels:
-        charmcraft: "2.x/candidate"
+        charmcraft: "3.x/stable"
       channels:
         - 2024.1/candidate
       bases:
@@ -204,7 +204,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -307,7 +307,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -392,9 +392,9 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "3.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
-          - 2024.1/stable
+          - 2024.1/candidate
         bases:
           - "22.04"
           - "24.04"
@@ -512,7 +512,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -632,7 +632,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -724,7 +724,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -940,7 +940,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "3.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1150,7 +1150,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1258,7 +1258,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1355,7 +1355,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1443,7 +1443,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1536,7 +1536,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1633,7 +1633,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1730,7 +1730,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1812,7 +1812,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1872,7 +1872,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -1977,7 +1977,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2065,7 +2065,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2153,7 +2153,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2246,7 +2246,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2348,7 +2348,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2436,7 +2436,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2467,7 +2467,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2570,7 +2570,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2673,7 +2673,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2728,7 +2728,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
@@ -2783,7 +2783,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2024.1/candidate
         bases:
