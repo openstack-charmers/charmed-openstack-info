@@ -171,7 +171,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - yoga/stable
         bases:
@@ -180,7 +180,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - zed/stable
         bases:
@@ -188,7 +188,7 @@ projects:
       stable/2023.1:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.1/stable
         bases:
@@ -196,7 +196,7 @@ projects:
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/candidate"
         channels:
           - 2023.2/stable
         bases:
@@ -204,7 +204,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/candidate"
         channels:
           - 2024.1/candidate
         bases:
@@ -328,26 +328,6 @@ projects:
     charmhub: cinder
     launchpad: charm-cinder
     repository: https://opendev.org/openstack/charm-cinder.git
-
-  - name: OpenStack Cinder Backup Charm
-    charmhub: cinder-backup
-    launchpad: charm-cinder-backup
-    repository: https://opendev.org/openstack/charm-cinder-backup.git
-
-  - name: OpenStack Cinder Ceph Charm
-    charmhub: cinder-ceph
-    launchpad: charm-cinder-ceph
-    repository: https://opendev.org/openstack/charm-cinder-ceph.git
-
-  - name: OpenStack Dashboard Charm
-    charmhub: openstack-dashboard
-    launchpad: charm-openstack-dashboard
-    repository: https://opendev.org/openstack/charm-openstack-dashboard.git
-
-  - name: OpenStack Designate Charm
-    charmhub: designate
-    launchpad: charm-designate
-    repository: https://opendev.org/openstack/charm-designate.git
     branches:
       master:
         build-channels:
@@ -356,6 +336,56 @@ projects:
           - latest/edge
         bases:
           - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
       stable/yoga:
         enabled: True
         build-channels:
@@ -394,7 +424,127 @@ projects:
         build-channels:
           charmcraft: "3.x/stable"
         channels:
-          - 2024.1/stable
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
+
+  - name: OpenStack Cinder Backup Charm
+    charmhub: cinder-backup
+    launchpad: charm-cinder-backup
+    repository: https://opendev.org/openstack/charm-cinder-backup.git
+
+  - name: OpenStack Cinder Ceph Charm
+    charmhub: cinder-ceph
+    launchpad: charm-cinder-ceph
+    repository: https://opendev.org/openstack/charm-cinder-ceph.git
+
+  - name: OpenStack Dashboard Charm
+    charmhub: openstack-dashboard
+    launchpad: charm-openstack-dashboard
+    repository: https://opendev.org/openstack/charm-openstack-dashboard.git
+
+  - name: OpenStack Designate Charm
+    charmhub: designate
+    launchpad: charm-designate
+    repository: https://opendev.org/openstack/charm-designate.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
         bases:
           - "22.04"
           - "24.04"
@@ -403,11 +553,211 @@ projects:
     charmhub: designate-bind
     launchpad: charm-designate-bind
     repository: https://opendev.org/openstack/charm-designate-bind.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Glance Charm
     charmhub: glance
     launchpad: charm-glance
     repository: https://opendev.org/openstack/charm-glance.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Glance Simplestreams Sync Charm
     charmhub: glance-simplestreams-sync
@@ -523,11 +873,211 @@ projects:
     charmhub: heat
     launchpad: charm-heat
     repository: https://opendev.org/openstack/charm-heat.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Keystone Charm
     charmhub: keystone
     launchpad: charm-keystone
     repository: https://opendev.org/openstack/charm-keystone.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Keystone LDAP Charm
     charmhub: keystone-ldap
@@ -745,6 +1295,106 @@ projects:
     charmhub: neutron-api
     launchpad: charm-neutron-api
     repository: https://opendev.org/openstack/charm-neutron-api.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Neutron Gateway Charm
     charmhub: neutron-gateway
