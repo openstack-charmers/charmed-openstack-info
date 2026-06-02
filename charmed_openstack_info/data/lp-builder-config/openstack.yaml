@@ -171,7 +171,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "1.5/stable"
         channels:
           - yoga/stable
         bases:
@@ -180,7 +180,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -188,7 +188,7 @@ projects:
       stable/2023.1:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.1/stable"
         channels:
           - 2023.1/stable
         bases:
@@ -196,7 +196,7 @@ projects:
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - 2023.2/stable
         bases:
@@ -204,7 +204,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - 2024.1/candidate
         bases:
@@ -338,56 +338,6 @@ projects:
     charmhub: cinder-ceph
     launchpad: charm-cinder-ceph
     repository: https://opendev.org/openstack/charm-cinder-ceph.git
-    branches:
-      master:
-        build-channels:
-          charmcraft: "3.x/stable"
-        channels:
-          - latest/edge
-        bases:
-          - "24.04"
-      stable/yoga:
-        enabled: True
-        build-channels:
-          charmcraft: "3.x/stable"
-        channels:
-          - yoga/stable
-        bases:
-          - "20.04"
-          - "22.04"
-      stable/zed:
-        enabled: True
-        build-channels:
-          charmcraft: "3.x/stable"
-        channels:
-          - zed/stable
-        bases:
-          - "22.04"
-      stable/2023.1:
-        enabled: True
-        build-channels:
-          charmcraft: "3.x/stable"
-        channels:
-          - 2023.1/stable
-        bases:
-          - "22.04"
-      stable/2023.2:
-        enabled: True
-        build-channels:
-          charmcraft: "3.x/stable"
-        channels:
-          - 2023.2/stable
-        bases:
-          - "22.04"
-      stable/2024.1:
-        enabled: True
-        build-channels:
-          charmcraft: "3.x/candidate"
-        channels:
-          - 2024.1/candidate
-        bases:
-          - "22.04"
-          - "24.04"
 
   - name: OpenStack Dashboard Charm
     charmhub: openstack-dashboard
@@ -444,7 +394,7 @@ projects:
         build-channels:
           charmcraft: "3.x/stable"
         channels:
-          - 2024.1/candidate
+          - 2024.1/stable
         bases:
           - "22.04"
           - "24.04"
@@ -649,7 +599,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "1.5/stable"
         channels:
           - yoga/stable
         bases:
@@ -658,7 +608,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.1/stable"
         channels:
           - zed/stable
         bases:
@@ -666,7 +616,7 @@ projects:
       stable/2023.1:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.1/stable"
         channels:
           - 2023.1/stable
         bases:
@@ -674,7 +624,7 @@ projects:
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - 2023.2/stable
         bases:
@@ -682,7 +632,7 @@ projects:
       stable/2024.1:
         enabled: True
         build-channels:
-          charmcraft: "3.x/stable"
+          charmcraft: "2.x/candidate"
         channels:
           - 2024.1/candidate
         bases:
