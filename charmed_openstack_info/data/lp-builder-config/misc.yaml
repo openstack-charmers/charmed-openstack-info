@@ -216,11 +216,12 @@ projects:
           - "24.04"
       stable/1.8:
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 1.8/stable
         bases:
           - "22.04"
+          - "24.04"
       stable/1.7:
         build-channels:
           charmcraft: "1.5/stable"
