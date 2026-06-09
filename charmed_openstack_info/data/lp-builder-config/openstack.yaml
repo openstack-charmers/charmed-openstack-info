@@ -107,6 +107,106 @@ projects:
     charmhub: aodh
     launchpad: charm-aodh
     repository: https://opendev.org/openstack/charm-aodh.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Barbican Charm
     charmhub: barbican
@@ -274,7 +374,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - yoga/stable
         bases:
@@ -283,7 +383,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - zed/stable
         bases:
@@ -291,7 +391,7 @@ projects:
       stable/2023.1:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.1/stable
         bases:
@@ -299,7 +399,7 @@ projects:
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/candidate"
         channels:
           - 2023.2/stable
         bases:
@@ -318,6 +418,106 @@ projects:
     charmhub: ceilometer
     launchpad: charm-ceilometer
     repository: https://opendev.org/openstack/charm-ceilometer.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/train:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - train/edge
+          - stein/edge
+          - rocky/edge
+          - queens/edge
+        bases:
+          - "18.04"
+        duplicate-channels:
+          # queens, rocky and stein recipes at all those will be served from
+          # stable/train
+          - queens
+          - rocky
+          - stein
+      stable/ussuri:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        enabled: True
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        enabled: True
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Ceilometer Agent Charm
     charmhub: ceilometer-agent
