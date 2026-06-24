@@ -37,7 +37,7 @@ projects:
           - "24.04"
       stable/jammy:
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2.4/stable
         bases:
@@ -90,7 +90,7 @@ projects:
       #stable/8.0:
       stable/jammy:
         build-channels:
-          charmcraft: "2.x/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 8.0/stable
         bases:
