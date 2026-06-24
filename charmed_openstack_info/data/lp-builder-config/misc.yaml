@@ -328,7 +328,7 @@ projects:
       stable/jammy:
         enabled: True
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "3.x/stable"
         channels:
           - jammy/stable
         bases:
