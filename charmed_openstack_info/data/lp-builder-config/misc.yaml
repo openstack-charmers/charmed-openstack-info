@@ -87,7 +87,13 @@ projects:
           - latest/edge
         bases:
           - "24.04"
-      #stable/8.0:
+      stable/noble:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 8.0/stable
+        bases:
+          - "24.04"
       stable/jammy:
         build-channels:
           charmcraft: "3.x/stable"
@@ -109,7 +115,13 @@ projects:
           - latest/edge
         bases:
           - "24.04"
-      #stable/8.0:
+      stable/noble:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - "8.0/stable"
+        bases:
+          - "24.04"
       stable/jammy:
         build-channels:
           charmcraft: "3.x/stable"
