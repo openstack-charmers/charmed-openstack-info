@@ -2048,11 +2048,159 @@ projects:
     charmhub: neutron-gateway
     launchpad: charm-neutron-gateway
     repository: https://opendev.org/openstack/charm-neutron-gateway.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/ussuri:
+        build-channels:
+          charmcraft: "1.x/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Neutron Open vSwitch Charm
     charmhub: neutron-openvswitch
     launchpad: charm-neutron-openvswitch
     repository: https://opendev.org/openstack/charm-neutron-openvswitch.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+        bases:
+          - "24.04"
+      stable/ussuri:
+        build-channels:
+          charmcraft: "1.x/stable"
+        channels:
+          - ussuri/stable
+        bases:
+          - "18.04"
+          - "20.04"
+      stable/victoria:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - victoria/stable
+        bases:
+          - "20.04"
+      stable/wallaby:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - wallaby/stable
+        bases:
+          - "20.04"
+      stable/xena:
+        build-channels:
+          charmcraft: "1.5/stable"
+        channels:
+          - xena/stable
+        bases:
+          - "20.04"
+      stable/yoga:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - yoga/stable
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/zed:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - zed/stable
+        bases:
+          - "22.04"
+      stable/2023.1:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.1/stable
+        bases:
+          - "22.04"
+      stable/2023.2:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2023.2/stable
+        bases:
+          - "22.04"
+      stable/2024.1:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - 2024.1/candidate
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OpenStack Nova Cloud Controller Charm
     charmhub: nova-cloud-controller
@@ -4086,7 +4234,7 @@ projects:
       stable/yoga:
         enabled: True
         build-channels:
-          charmcraft: "2.0/stable"
+          charmcraft: "3.x/stable"
         channels:
           - yoga/stable
         bases:
@@ -4095,7 +4243,7 @@ projects:
       stable/zed:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - zed/stable
         bases:
@@ -4103,7 +4251,7 @@ projects:
       stable/2023.1:
         enabled: True
         build-channels:
-          charmcraft: "2.1/stable"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.1/stable
         bases:
@@ -4111,7 +4259,7 @@ projects:
       stable/2023.2:
         enabled: True
         build-channels:
-          charmcraft: "2.x/candidate"
+          charmcraft: "3.x/stable"
         channels:
           - 2023.2/stable
         bases:
