@@ -1,95 +1,187 @@
 # OVN Charms
 defaults:
   team: ubuntu-ovn-eng
-  branches:
-    main:
-      build-channels:
-        charmcraft: "3.x/stable"
-      channels:
-        - latest/edge
-      bases:
-        - "24.04"
-    stable/20.03:
-      build-channels:
-        charmcraft: "1.5/stable"
-      channels:
-        #- openstack-ussuri/edge
-        #- openstack-victoria/edge
-        - 20.03/stable
-      bases:
-        - "18.04"
-        - "20.04"
-    stable/20.12:
-      build-channels:
-        charmcraft: "1.5/stable"
-      channels:
-        #- openstack-wallaby/edge
-        - 20.12/stable
-      bases:
-        - "20.04"
-    stable/21.09:
-      build-channels:
-        charmcraft: "1.5/stable"
-      channels:
-        #- openstack-xena/edge
-        - 21.09/stable
-      bases:
-        - "20.04"
-    stable/22.03:
-      build-channels:
-        charmcraft: "2.x/stable"
-      channels:
-        - 22.03/stable
-      bases:
-        - "20.04"
-        - "22.04"
-    stable/22.09:
-      build-channels:
-        charmcraft: "2.x/stable"
-      channels:
-        - 22.09/stable
-      bases:
-        - "22.04"
-        - "22.10"
-    stable/23.03:
-      build-channels:
-        charmcraft: "2.x/stable"
-      channels:
-        - 23.03/stable
-      bases:
-        - "22.04"
-        - "23.04"
-    stable/23.09:
-      build-channels:
-        # Needs to be candidate at the moment to pick up 2.5.0
-        charmcraft: "2.x/stable"
-      channels:
-        - 23.09/stable
-      bases:
-        - "22.04"
-        - "23.10"
-    stable/24.03:
-      build-channels:
-        # Needs to be candidate at the moment to pick up 2.5.0
-        charmcraft: "2.x/stable"
-      channels:
-        - 24.03/stable
-      bases:
-        - "22.04"
-        - "23.10"
 
 projects:
   - name: OVN Central
     charmhub: ovn-central
     launchpad: charm-ovn-central
-    repository: https://github.com/canonical/charm-ovn-central.git
+    repository: ~ubuntu-ovn-eng/ovn-charms-v1/+git/ovn-charms-v1
+    branches:
+      main:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-central
+        channels:
+          - latest/edge
+        bases:
+          - "22.04"
+          - "24.04"
+      stable/22.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-central
+        channels:
+          - 22.03/edge
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/22.09:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-central
+        channels:
+          - 22.09/edge
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/23.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-central
+        channels:
+          - 23.03/edge
+        bases:
+          - "22.04"
+          - "23.04"
+      stable/23.09:
+        build-channels:
+          # Needs to be candidate at the moment to pick up 2.5.0
+          charmcraft: "3.x/stable"
+        build-path: ovn-central
+        channels:
+          - 23.09/edge
+        bases:
+          - "22.04"
+          - "23.10"
+      stable/24.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-central
+        channels:
+          - 24.03/edge
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OVN Dedicated Chassis
     charmhub: ovn-dedicated-chassis
     launchpad: charm-ovn-dedicated-chassis
-    repository: https://github.com/canonical/charm-ovn-dedicated-chassis.git
+    repository: ~ubuntu-ovn-eng/ovn-charms-v1/+git/ovn-charms-v1
+    branches:
+      main:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-dedicated-chassis
+        channels:
+          - latest/edge
+        bases:
+          - "22.04"
+          - "24.04"
+      stable/22.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-dedicated-chassis
+        channels:
+          - 22.03/edge
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/22.09:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-dedicated-chassis
+        channels:
+          - 22.09/edge
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/23.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-dedicated-chassis
+        channels:
+          - 23.03/edge
+        bases:
+          - "22.04"
+          - "23.04"
+      stable/23.09:
+        build-channels:
+          # Needs to be candidate at the moment to pick up 2.5.0
+          charmcraft: "3.x/stable"
+        build-path: ovn-dedicated-chassis
+        channels:
+          - 23.09/edge
+        bases:
+          - "22.04"
+          - "23.10"
+      stable/24.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-dedicated-chassis
+        channels:
+          - 24.03/edge
+        bases:
+          - "22.04"
+          - "24.04"
 
   - name: OVN Chassis
     charmhub: ovn-chassis
     launchpad: charm-ovn-chassis
-    repository: https://github.com/canonical/charm-ovn-chassis.git
+    repository: ~ubuntu-ovn-eng/ovn-charms-v1/+git/ovn-charms-v1
+    branches:
+      main:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-chassis
+        channels:
+          - latest/edge
+        bases:
+          - "22.04"
+          - "24.04"
+      stable/22.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-chassis
+        channels:
+          - 22.03/edge
+        bases:
+          - "20.04"
+          - "22.04"
+      stable/22.09:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-chassis
+        channels:
+          - 22.09/edge
+        bases:
+          - "22.04"
+          - "22.10"
+      stable/23.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-chassis
+        channels:
+          - 23.03/edge
+        bases:
+          - "22.04"
+          - "23.04"
+      stable/23.09:
+        build-channels:
+          # Needs to be candidate at the moment to pick up 2.5.0
+          charmcraft: "3.x/stable"
+        build-path: ovn-chassis
+        channels:
+          - 23.09/edge
+        bases:
+          - "22.04"
+          - "23.10"
+      stable/24.03:
+        build-channels:
+          charmcraft: "3.x/stable"
+        build-path: ovn-chassis
+        channels:
+          - 24.03/edge
+        bases:
+          - "22.04"
+          - "24.04"
