@@ -307,6 +307,17 @@ projects:
         channels:
           - latest/edge
 
+  - name: Test SAML idp
+    charmhub: test-saml-idp
+    launchpad: charm-test-saml-idp
+    repository: https://github.com/openstack-charmers/charm-test-saml-idp.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+
   - name: OpenID Connect Test Fixture Charm
     charmhub: openidc-test-fixture
     launchpad: charm-openidc-test-fixture
