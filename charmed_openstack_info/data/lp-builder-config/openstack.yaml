@@ -3768,7 +3768,7 @@ projects:
       stable/ussuri:
         enabled: True
         build-channels:
-          charmcraft: "1.5/stable"
+          charmcraft: "2.x/stable"
         channels:
           - ussuri/stable
         bases:
